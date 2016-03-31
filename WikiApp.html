@@ -1,0 +1,73 @@
+<html>
+  <div class="main-display absolute-center">
+
+    <div class="information-display">
+      <p> Interested in something specific?</p>
+    </div>
+
+    <div class="search-bar">
+      <input type='text' id='link_id'>
+          <input type='button' id='link' value='Search' onClick='javascript:goTo()'>
+    </div>
+
+
+
+     <div class="random-link">
+      <a href="https://wikipedia.org/wiki/Special:Random" title="Click to load a random article" accesskey="x">Or something random?</a>
+    </div>
+  </div>
+</html>
+
+<style>
+  * {
+    background-color: #77B1A9;
+  }
+
+  p {
+    #color: white;
+  }
+
+  .main-display {
+    color: white;
+    text-align: center;
+    height: auto;
+    font-weight: 600;
+    font-size: 1.35em;
+    padding: 10px;
+    font-family: "Georgia";
+  }
+
+  .absolute-center {
+    height:50%;
+    width:50%;
+    overflow:auto;
+    margin:auto;
+    position:absolute;
+    top:0; left:0; bottom:0; right:0;
+  }
+
+  a {
+    color:white;
+    text-decoration:none;
+  }
+
+  .random-link{
+    padding:15px;
+  }
+
+  .information-display{
+    padding:0px;
+  }
+
+  .search-bar{
+      font-size: .75em;
+  }
+</style>
+
+<script>
+  function goTo()
+  {
+    var wikiAd="https://en.wikipedia.org/wiki/";
+      location.href = wikiAd + document.getElementById('link_id').value;
+  }
+</script>

@@ -9,4 +9,4 @@ My profile can be found at --  http://codepen.io/cpowers/
 
 This is part of the FreeCodeCamp front end cert -- https://www.freecodecamp.com/chris-powers
 
-by Chris Powers - cjpowers3@gmail.com
+by Chris Powers 
